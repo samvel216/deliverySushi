@@ -1,4 +1,7 @@
 const menuBtn = document.querySelector('.menuBtn');
+const heroButtonEl = document.querySelectorAll(".heroButton");
+const arrowSliderLeftEl = document.querySelector(".arrowSliderLeft");
+const arrowSliderRight = document.querySelector(".arrowSliderRight");
 const menuMobileContainer = document.querySelector('.menuMobileContainer');
 const menuCloseBtnEl = document.querySelector('.menuCloseBtn');
 menuBtn.addEventListener('click', function () {
@@ -21,6 +24,12 @@ buttons1.forEach(button => {
   });
 });
 
+let showButton = [1,2];
 
+const buttonRightSwipe = (event) => {
+  event.preventDefault();
+  
 
+}
+arrowSliderRight.addEventListener("click", buttonRightSwipe);
 
