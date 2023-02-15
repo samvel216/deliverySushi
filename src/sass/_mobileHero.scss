@@ -1,0 +1,43 @@
+
+
+.sectionHero {
+    padding: 30px 0px;
+}
+
+.heroButtonList {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  .item {
+    margin-right: 10px;
+  }
+
+  .item:last-child {
+    margin-right: 0px;
+  }
+}
+.heroButton {
+  padding: 3px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--nav-color);
+  color: white;
+
+}
+.heroButton:hover .circleDownIcon {
+    top: 60%;
+}
+.heroAbsoluteContainer {
+  position: relative;
+}
+.circleDownIcon {
+  height: 15px;
+  width: 20px;
+  fill: black;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%); 
+  z-index: -1;
+}
