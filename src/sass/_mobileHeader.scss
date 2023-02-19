@@ -45,7 +45,7 @@ li a {
   width: 1em;
   height: 1em;
   vertical-align: middle;
-  fill: currentColor;
+  fill: white;
   margin-right: 0.5em; /* Adjust this value to your liking */
   margin-top: -0.2em;
 }
@@ -79,11 +79,67 @@ li a {
 .modal {
   position: fixed;
   top: -100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  width: 80%;
+  height: 50%;
+  transform: translate( -50%);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 9999;
   transition: all 1s ease;
-  transform: translateY(-100%);
+  border: 6px solid orangered; 
+  border-top: none;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
+.show {
+  top: 0;
+}
+.menuMobileContainer {
+  padding: 60px 60px;
+  
+}
+.workTimeText {
+  text-align: center;
+}
+.mainNavigation {
+  text-align: center;
+  color: white;
+  .item {
+    margin-bottom: 30px;
+  }
+  
+}
+.headerModalLink {
+  color: white;
+  font-size: 18px;
+} 
+.workTimeText {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 20px;
+}
+.workTimeSpan {
+  color: red;
+}
+.menuCloseBtn {
+
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: absolute;
+  bottom: -15%;
+  left: 50%;
+  transform: translate(-50%);
+
+  display: flex;
+}
+.menuCloseIconBtn {
+  width: 100px;
+  height: 100px;
+  fill: orangered;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+

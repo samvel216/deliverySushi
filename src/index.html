@@ -17,7 +17,7 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container"> 
       <div class="logoDeliverContainer">
         <a href="" class="logoLink">СУШИСТ</a>
         <button class="menuBtn">
@@ -30,10 +30,11 @@
         <div class="workTimeContainer">
           <p class="workTimeText">Время работы: <span class="workTimeSpan">10:00-22:00</span></p>
         </div>
-        <nav>
+        <nav class="headerNav">
           <ul class="mainNavigation">
             <li class="item">
-              <a href="#" style="text-align: center;">
+              
+              <a href="+380991479619" style="text-align: center;" class="headerModalLink">
                 <svg class="telephone-icon" style="display: inline-block;">
                   <use href="./images/sprite.svg#icon-Vector-7"></use>
                 </svg>
@@ -41,157 +42,240 @@
               </a>
             </li>
             <li class="item">
-              <a href="#" style="text-align: center;">
+              <a href="+380991479619" style="text-align: center;" class="headerModalLink">
                 <svg class="telephone-icon" style="display: inline-block;">
                   <use href="./images/sprite.svg#icon-Vector-7"></use>
                 </svg>
                 0991479619
               </a>
             </li>
-            <li class="item"><a href="#">sushist_dachnoe</a></li>
+            <li class="item"><a href="#" class="headerModalLink">sushist_dachnoe</a></li>
           </ul>
         </nav>
+        <button class="menuCloseBtn">
+          <svg class="menuCloseIconBtn">
+            <use href="./images/sprite.svg#icon-circle-up"></use>
+          </svg>
+        </button>
       </div>
     </div>
   </header>
   <main>
     <section class="sectionHero">
      <div class="container">
-       <ul class="heroButtonList">
+       
+       <div class="arrow-slider">
+        <button class="arrowSliderLeft">
+          <svg width="50px" height="50px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000)">
+                <polygon class="arrow-slider-pl" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                <polygon class="arrow-slider-pl-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                <path d="M-1.48029737e-15,0.56157424 L-1.48029737e-15,16.1929159 L9.708,8.33860465 L-2.66453526e-15,0.56157424 L-1.48029737e-15,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+            </g>
+        </svg>
+        </button>
+        <ul class="heroButtonList">
+          <li class="item">
+            <div class="heroAbsoluteContainer">
+              <button class="heroButton">Роллы</button>  
+           </div>      
+          </li>
+          <li class="item">
+            <div class="heroAbsoluteContainer">
+              <button class="heroButton">Мангал</button>
+            </div>
+          </li>
+          <!-- <li class="item">
+            <div class="heroAbsoluteContainer">
+              <button class="heroButton">Гунканы</button>
+           </div>      
+          </li>
+        
          <li class="item">
            <div class="heroAbsoluteContainer">
-             <button class="heroButton">Роллы</button>
-             <svg class="circleDownIcon" style="display: inline-block;">
-               <use href="./images/sprite.svg#icon-circle-down"></use>
-             </svg>
-           </div>
+             <button class="heroButton">Роллы запеченные</button>  
+          </div>      
          </li>
          <li class="item">
            <div class="heroAbsoluteContainer">
-             <button class="heroButton">Шавуха</button>
-             <svg class="circleDownIcon" style="display: inline-block;">
-               <use href="./images/sprite.svg#icon-circle-down"></use>
-             </svg>
-           </div>
+             <button class="heroButton">Нигири</button>
+          </div>      
          </li>
          <li class="item">
            <div class="heroAbsoluteContainer">
-             <button class="heroButton">Анал</button>
-             <svg class="circleDownIcon" style="display: inline-block;">
-               <use href="./images/sprite.svg#icon-circle-down"></use>
-             </svg>
-           </div>
+             <button class="heroButton">Сеты</button>
+          </div>      
          </li>
-       </ul>
-       <div class="heroCheckboxContainer">
-         <label for="size">Size</label>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Добавки</button> 
+          </div>      
+         </li>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Пицца</button>
+          </div>      
+         </li>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Супы, wok, салаты</button>   
+          </div>      
+         </li>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Шаурма и Хот Дог</button>  
+          </div>      
+         </li>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Закуски</button>
+          </div>      
+         </li>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Напитки</button>
+          </div>      
+         </li>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Соусы</button>     
+          </div>      
+         </li>
+         <li class="item">
+           <div class="heroAbsoluteContainer">
+             <button class="heroButton">Десерты</button>        
+          </div>      
+         </li> -->
+        </ul>
+        <button class="arrowSliderRight">
+          <svg width="50px" height="50px" viewBox="-1 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+                <polygon class="arrow-slider-pl" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                <polygon class="arrow-slider-pl-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                <path d="M-4.58892184e-16,0.56157424 L-4.58892184e-16,16.1929159 L9.708,8.33860465 L-1.64313008e-15,0.56157424 L-4.58892184e-16,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+            </g>
+        </svg>
+        </button>
+       
+    </div>
+       <!-- <div class="heroCheckboxContainer">
+         <label class="heroCheckboxLabel" for="size">Фильтр</label>
          <select id="size" name="size">
            <option value="xs">Самые дорогие</option>
-           <option value="s">Самые дешевые</option>
-           <option value="m" selected>По умолчанию</option>
+           <option value="s" selected>Самые дешевые</option>
            <option value="l">Самые новые</option>
            <option value="m">Самые старые</option>
          </select>
-       </div>
-       <div class="heroCardContainer">
+       </div> -->
+     
+       
          <ul class="heroCardList">
            <li class="item">
              <div class="cardContainer">
-               <img />
+              <div class="imgCardContainer">
+                <img class="cardImg" src="./images/filadelfia.jpg" />
+              </div>      
                <h3 class="cardTitle">Филадельфия</h3>
                <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
                <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
+                 
+                 <span class="heroCardPrice">199грн</span>
+                 <button class="heroCardBtn">В корзину</button>
+                 <span class="heroCardWeight">244гр</span>
                </div>
              </div>
            </li>
            <li class="item">
-             <div class="cardContainer">
-               <img />
-               <h3 class="cardTitle">Филадельфия</h3>
-               <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
-               <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
-               </div>
-             </div>
-           </li>
-           <li class="item">
-             <div class="cardContainer">
-               <img />
-               <h3 class="cardTitle">Филадельфия</h3>
-               <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
-               <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
-               </div>
-             </div>
-           </li>
-           <li class="item">
-             <div class="cardContainer">
-               <img />
-               <h3 class="cardTitle">Филадельфия</h3>
-               <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
-               <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
-               </div>
-             </div>
-           </li>
-           <li class="item">
-             <div class="cardContainer">
-               <img />
-               <h3 class="cardTitle">Филадельфия</h3>
-               <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
-               <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
-               </div>
-             </div>
-           </li>
-           <li class="item">
-             <div class="cardContainer">
-               <img />
-               <h3 class="cardTitle">Филадельфия</h3>
-               <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
-               <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
-               </div>
-             </div>
-           </li>
-           <li class="item">
-             <div class="cardContainer">
-               <img />
-               <h3 class="cardTitle">Филадельфия</h3>
-               <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
-               <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
-               </div>
-             </div>
-           </li>
-           <li class="item">
-             <div class="cardContainer">
-               <img />
-               <h3 class="cardTitle">Филадельфия</h3>
-               <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
-               <div class="heroSpanButtonContainer">
-                 <button>В корзину</button>
-                 <span>199грн</span>
-                 <span>244гр</span>
-               </div>
-             </div>
+            <div class="cardContainer">
+             <div class="imgCardContainer">
+               <img class="cardImg" src="./images/filadelfia.jpg" />
+             </div>      
+              <h3 class="cardTitle">Филадельфия</h3>
+              <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
+              <div class="heroSpanButtonContainer">
+                
+                <span class="heroCardPrice">199грн</span>
+                <button class="heroCardBtn">В корзину</button>
+                <span class="heroCardWeight">244гр</span>
+              </div>
+            </div>
+          </li>
 
-           </li>
+          <li class="item">
+            <div class="cardContainer">
+             <div class="imgCardContainer">
+               <img class="cardImg" src="./images/filadelfia.jpg" />
+             </div>      
+              <h3 class="cardTitle">Филадельфия</h3>
+              <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
+              <div class="heroSpanButtonContainer">
+                
+                <span class="heroCardPrice">199грн</span>
+                <button class="heroCardBtn">В корзину</button>
+                <span class="heroCardWeight">244гр</span>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="cardContainer">
+             <div class="imgCardContainer">
+               <img class="cardImg" src="./images/filadelfia.jpg" />
+             </div>      
+              <h3 class="cardTitle">Филадельфия</h3>
+              <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
+              <div class="heroSpanButtonContainer">
+                
+                <span class="heroCardPrice">199грн</span>
+                <button class="heroCardBtn">В корзину</button>
+                <span class="heroCardWeight">244гр</span>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="cardContainer">
+             <div class="imgCardContainer">
+               <img class="cardImg" src="./images/filadelfia.jpg" />
+             </div>      
+              <h3 class="cardTitle">Филадельфия</h3>
+              <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
+              <div class="heroSpanButtonContainer">
+                
+                <span class="heroCardPrice">199грн</span>
+                <button class="heroCardBtn">В корзину</button>
+                <span class="heroCardWeight">244гр</span>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="cardContainer">
+             <div class="imgCardContainer">
+               <img class="cardImg" src="./images/filadelfia.jpg" />
+             </div>      
+              <h3 class="cardTitle">Филадельфия</h3>
+              <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
+              <div class="heroSpanButtonContainer">
+                
+                <span class="heroCardPrice">199грн</span>
+                <button class="heroCardBtn">В корзину</button>
+                <span class="heroCardWeight">244гр</span>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="cardContainer">
+             <div class="imgCardContainer">
+               <img class="cardImg" src="./images/filadelfia.jpg" />
+             </div>      
+              <h3 class="cardTitle">Филадельфия</h3>
+              <p class="cardText">Угорь, Сыр Филадельфия, Соус унаги, Кунжут</p>
+              <div class="heroSpanButtonContainer">
+                
+                <span class="heroCardPrice">199грн</span>
+                <button class="heroCardBtn">В корзину</button>
+                <span class="heroCardWeight">244гр</span>
+              </div>
+            </div>
+          </li>
          </ul>
        </div>
      </div>

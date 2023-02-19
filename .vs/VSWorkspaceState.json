@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\css",
     "\\src\\images",
     "\\src\\sass"
   ],
-  "SelectedNode": "\\src\\index.js",
+  "SelectedNode": "\\src\\sass\\index.scss",
   "PreviewInSolutionExplorer": false
 }

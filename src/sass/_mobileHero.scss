@@ -6,27 +6,27 @@
 
 .heroButtonList {
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-
+  justify-content: space-between;
+  margin: 20px auto;
+ 
+  width: 80%;
   .item {
     margin-right: 10px;
   }
-
   .item:last-child {
     margin-right: 0px;
   }
 }
 .heroButton {
-  padding: 3px 10px;
+  padding: 5px 20px;
   border-radius: 8px;
   border: none;
-  background-color: var(--nav-color);
+  background-color: orangered;
   color: white;
 
 }
-.heroButton:hover .circleDownIcon {
-    top: 60%;
+.heroButton:hover  {
+    background-color:wheat ;
 }
 .heroAbsoluteContainer {
   position: relative;
@@ -40,4 +40,90 @@
   left: 50%;
   transform: translate(-50%, 50%); 
   z-index: -1;
+}
+.heroCardList {
+  margin: 0 auto;
+  width: 80%;
+  .item {
+    margin-bottom: 30px;
+  }
+}
+
+.cardImg {
+  width: 100%;
+  display: block;
+}
+.cardTitle {
+  margin: 20px auto;
+  text-align: center;
+}
+.cardText {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.cardContainer {
+  position: relative;
+  border: 1px solid orangered;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: rgb(248, 244, 239);
+}
+.heroCardWeight {
+  position: absolute;
+  background-color: red;
+  padding: 5px;
+  color: white;
+  border-radius: 25%;
+  bottom: 130px;
+  left: 20px;
+}
+.heroCardBtn {
+  padding: 7px 21px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  color: aliceblue;
+  display: block;
+  margin: 0 auto;
+ 
+}
+.heroSpanButtonContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.heroCardPrice {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.heroModalBtn {
+  width: 100%;
+  font-size: 13px;
+  
+  border: none;
+  border-bottom: 3px solid red;
+  display: block;
+  color: aliceblue;
+}
+.heroCheckboxLabel {
+
+  text-align: center;
+}
+.heroCheckboxContainer {
+  margin: 20px 0px;
+  text-align: center;
+}
+.heroModalContainer.show {
+  transform: translateY(0);
+  transition: transform 0.3s ease-out;
+}
+.heroModalContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
 }
